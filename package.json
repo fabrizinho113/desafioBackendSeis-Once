@@ -1,18 +1,22 @@
 {
-  "name": "cuarto-desafio",
+  "name": "desafio9ob",
   "version": "1.0.0",
-  "description": "Cuarto desafio de CoderHouse",
-  "main": "server.js",
+  "description": "Para utilizar y probar el programa, se ejecutan los siguientes comandos:",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
+    "start": "node server.js"
   },
-  "author": "",
+  "keywords": [],
+  "author": "@freederth",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "express-handlebars": "^6.0.6",
-    "socket.io": "^4.5.3"
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0"
   },
-  "keywords": []
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "normalizr": "^3.6.2",
+    "socket.io": "^4.5.1"
+  }
 }
